@@ -1,0 +1,28 @@
+.container {
+  padding: 2rem;
+}
+.width{
+  width: 60%;
+}
+h1, h2 {
+  color: #007bff;
+}
+
+p.lead {
+  font-size: 1.25rem;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1rem;
+}
+
+ul li {
+  margin: 0.5rem 0;
+}
+
+@media screen and (max-width:800px) {
+  .width{
+    width: 100%;
+  }
+}
